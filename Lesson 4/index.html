@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16" />
+   
+   <link rel="stylesheet" href="../css/reset.css">
+   <link rel="stylesheet" href="../fonts/fonts.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>webinfo.in.ua</title>
+</head>
+<body>
+      <div class="container">
+			<header>
+
+				<a href="https://www.webinfo.in.ua/" target="_blank" class="logo">
+					<img class= "img-logo" src="../img/LOGO.png" alt="logo">
+					<p><b >webinfo.in.ua</b></p>
+				</a>
+
+					<!-- <div class="hamburger" id="hamburger-1">
+						<span class="line"></span>
+						<span class="line"></span>
+						<span class="line"></span>
+					</div> -->
+
+					<ul class="mnu__top">
+						<li><a href="https://www.webinfo.in.ua/%d0%b2%d0%b5%d1%80%d1%81%d1%82%d0%ba%d0%b0/" target="_blank">Верстка</a></li>
+						<li><a href="https://www.webinfo.in.ua/%d1%96%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b8/" target="_blank">Інструменти</a></li>
+                  <li><a href="https://www.webinfo.in.ua/english/" target="_blank">English</a></li>
+                  <li><a href="https://www.webinfo.in.ua/home/news/" target="_blank">News</a></li>
+						<li><a href="https://www.webinfo.in.ua/" target="_blank">About me</a></li>
+					</ul>
+	
+			</header>
+
+	</div>
+
+   <main>
+      <div class="container img">
+          <h1 class="container img">Шрифти для веб-сайту</h1>
+         </div>
+      <div class="container img intro">
+
+        <div><img class="intro" src="/img/Home.png" alt="#"></div>
+        <hr>
+         <p class="text" >Шрифт є одним із важливих елементів дизайну документа, який може підсилити чи навпаки зменшити ефективність донесення інформації до користувача. Важко переоцінити значення шрифту в оформленні тексту, будь то веб-сторінка чи журнальна стаття. Вірно підібраний шрифт полегшує сприйняття і додає сторінці свого неповторного стилю. Під час підготовки до створення веб-сайту, необхідно визначитися зі шрифтами, що будуть використані. Часто різними шрифтами дизайнер набирає не лише основний текст сторінки, але і різноманітні заголовки, логотипи, та інші елементи, що прикрашатимуть сторінку.</p>
+      </div>
+
+      <div class="container-main">
+
+      <p>
+         Досвідчений розробник знає, що браузер може використовувати для відображення сторінки лише ті шрифти, які встановлені на комп'ютері у користувача. З цієї точки зору шрифти можна умовно розподілити до двох категорій:
+      </p>
+<ul>
+   <li ><strong> Стандартні шрифти</strong>, які містяться в інсталяційних пакетах операційних систем, офісних програмах та Інтернет застосуваннях. Вони без проблем відображаються в переважної більшості користувачів.</li>
+   <li ><strong> Довільні шрифти</strong>, які користувач доставляє за власними потребами та уподобаннями. Вони можуть бути відсутніми у значної групи користувачів.</li>
+</ul>
+<div class="container img">
+   <h2 class="container img">Веб-безпечні шрифти</h2>
+  </div> 
+  <p>
+   В Інтернеті історично склалося таке поняття як «безпечні» веб-шрифти. Безпечним шрифтом можна назвати шрифт, який є стандартним для всіх операційних систем. Нажаль, абсолютно безпечних шрифтів не існує. Окремі шрифти можна назвати безпечними з деякими обмовками.
+  </p>
+  <p>
+   Основою для визначення «безпечних» шрифтів послужили шрифти найбільш поширеної операційної системи Windows, які використовуються в інших операційних системах.
+  </p>
+  <p>
+   * Arial; * Arial Black; * Comic Sans MS; * Courier New; * Georgia; Impact; * Times New Roman; * Trebuchet MS; * Verdana.
+  </p>
+  <p>
+<em>
+   Ці шрифти є в кожного користувача Windows, Mac OS і у переважної більшості користувачів Unix/Linux.
+  </em>
+</p>
+<p>
+   За замовченням, для відображення тексту буде застосовано перший за ліком шрифт. У разі його відсутності на комп’ютері користувача для відображення буде використано наступний за ліком шрифт, і так далі. Зрештою, браузер обере з переліку відповідний для відображення шрифт.
+</p>
+
+<div class="container img">
+   <h2 class="container img">Під’єднання шрифтів @ font-face в файлі стилів</h2>
+  </div> 
+<p>
+   Властивість CSS @font-face надає можливість втілити на сайт нестандартні шрифти, які можна вибрати в мережі або створити самостійно.
+</p>
+
+<p>
+   Синтаксис CSS для оголошення користувацького шрифту дуже простий. Потрібно лише зазначити назву шрифту, джерело файлу шрифту і його можна застосувати до будь-якого елементу.
+</p>
+
+<pre class="box-code">@font-face {
+	font-family: "MyFontName";<br>
+	src: url('font.ttf');
+}<br>
+body {<br>
+	font-family: "MyFontName";/використовуємо підключений шрифт */<br>
+}
+</pre>
+
+<p>
+   Оскільки різні браузери підтримують різні формати користувацьких шрифтів. Щоб уникнути колізій у відображенні на сайті і домогтися кросбраузерності, краще використовувати наступний спосіб.
+</p>
+
+<pre class="box-code">  
+   @font-face {
+      font-family: "PT Sans Narrow";<br>
+      src: url("fonts/PTSans-Narrow.eot?") format("eot"), <br>
+      url("fonts/PTSans-Narrow.woff") format("woff"), <br>
+      url("fonts/PTSans-Narrow.ttf") format("truetype"), <br>
+      url("fonts/PTSans-Narrow.svg#PTSansNarrow") format("svg"), <br>
+      url("fonts/PTSans-Narrow.otf") format("opentype");<br>
+   }	<br>
+   body {
+      font-family: 'PT Sans Narrow', sans-serif;
+   }
+   <br>
+    <mark> Примітка:</mark> знак "?" після *.eot є обов'язковим для адекватного спрацювання шрифту в IE.
+   </pre>
+   <div class="container img">
+      <h2 class="container img">Колекція шрифтів Google Font</h2>
+     </div>
+     <p>
+      Google створив онлайн сервіс, де можна вибрати нестандартний шрифт для сайту (кількість доступних онлайн шрифтів постійно збільшується і серед них багато кириличних).
+     </p>
+     <p>
+      На сервісі<a href="https://fonts.google.com/" target="_blank"> Google Web Fonts</a> містяться інструкції по підключенню вибраного шрифту до сайту, проведення налаштування зовнішнього вигляду онлайн шрифту і отримання повного набору CSS властивостей, які потрібно додати у файл стилів сайту.
+     </p>
+     <p>
+      Вибраний онлайн шрифт для сайту буде довантажуватися до браузера користувача з серверів Google, що дозволить не створювати додаткове навантаження на сервер власного хостингу, як у випадку, коли онлайн шрифти для сайту зберігаються на його хостингу.
+     </p>
+
+     <figure class="item">
+      <a href="https://fonts.google.com/" target="_blank">
+         <img class="container img" src="img/google-fonts.png" style="will-change: transform; transform: perspective(100px) rotateX(0deg) rotateY(0deg);">
+      </a>
+   </figure>
+
+   <p>
+      Google має величезні технічні потужності і затримок із завантаженням потрібних онлайн шрифтів для сайту не виникає. Якщо користувач вже побував на сайтах, де використовують Google Font API, то підвантажені додаткові веб-шрифти для сайту швидше за все вже будуть в кеші браузера відвідувача.
+   </p>
+   <p>
+      Всі онлайн шрифти в Google Font API поширюються за вільною ліцензією і даний спосіб їх під’єднання до сайту буде кросбраузерним за замовчуванням.
+
+   </p>
+   <p>
+      <mark> Sources to download fonts for free </mark>
+   </p>
+     
+   <div class ="footer container">
+      <div><a href="https://webfonts.pro/" target="_blank"> <img src="../img/link.png"  alt="Laptop" height="30px"></a> </div>
+      <div><a href="https://bestfonts.pro/" target="_blank"> <img src="../img/link.png" alt="Laptop" height="30px"> </a></div>
+      <div><a href="https://www.ffonts.net/" target="_blank"> <img src="../img/link.png" alt="Laptop" height="30px"> </a></div>
+      <div><a href="http://www.fonts4web.ru/" target="_blank"> <img src="../img/link.png" alt="Laptop" height="30px"> </a></div>
+      <div><a href="https://andryushkin.ru/fonts/" target="_blank"> <img src="../img/link.png" alt="Laptop" height="30px"> </a></div>
+      </div>
+
+
+<div>
+  <p class="b"> Якщо ви добре мотивовані і у процесі навчання отримуєте задоволення — <mark>не зупиняйтеся</mark>,<br> і ви неодмінно станете тим, ким хочете, і досягнете успіху!</p>
+</div>
+<p class="b">
+   <strong> <a href="https://www.google.com/" target="_blank">continue =&gt; </a></strong>
+ </p>
+
+</div>
+</main>
+<div class ="footer container">
+<div><a href="mailto:sergio.web.it@gmail.com" target="_blank"> <img src="../img/mail.png"  alt="Laptop" height="30px"></a> </div>
+<div><a href="https://www.instagram.com/sergio_it_developer/" target="_blank"> <img src="../img/instagram.png" alt="Laptop" height="30px"> </a></div>
+<div><a href="https://t.me/sergio_web_it" target="_blank"> <img src="../img/telegram.png" alt="Laptop" height="30px"> </a></div>
+<div><a href="https://www.linkedin.com/in/sergio-bit-145baa241" target="_blank"> <img src="../img/linkedin.png" alt="Laptop" height="30px"> </a></div>
+</div>
+<div class="container botton"> © 2020-2022 IT Developer  </div>
+</body>
+</html> 
