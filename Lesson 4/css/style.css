@@ -369,6 +369,10 @@ a:hover {
       background-color: #fff;
    }
 
+   .footer img {
+      height: 30px;
+   }
+
  /*   HOVER   */
 
     .footer a:hover {       
