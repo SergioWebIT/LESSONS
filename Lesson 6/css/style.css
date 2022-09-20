@@ -401,6 +401,7 @@ pre {
 .visibility:hover{
    opacity: 1;
    transition: 0.5s;
+	
    visibility: hidden;
    transition: 1s;
 }
