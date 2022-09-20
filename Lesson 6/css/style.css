@@ -127,6 +127,7 @@ em {
 	text-transform: uppercase;
 	font-size: 14px;
 	text-decoration: none;
+   padding: 5px;
 }
 
 @media (max-width:767px){
@@ -395,16 +396,15 @@ pre {
 	height: 200px;
 	background-color: #794f45;
    margin: 0 auto;
-   opacity: 0.5;
+   opacity: 0.8;
    margin-bottom: 60px;
 }
 .visibility:hover{
    opacity: 1;
    transition: 0.5s;
-	
-	
+
+
    opacity: 0;
-	
    transition: 1s;
 }
 .list{
@@ -523,7 +523,7 @@ figure .img {
 }*/
  /*   HOVER   */
 
-a:hover {
+.link:hover {
 
    font-weight: 500;
    color:black;
@@ -581,7 +581,7 @@ a:hover {
 
  /*   HOVER   */
 
-    .footer a:hover { 
+    .footer .link:hover { 
       display: block;
       box-shadow: 2px 2px 2px 2px;
       border-radius: 4px;
