@@ -431,7 +431,8 @@ pre {
 	border-radius: 40px;
 	box-shadow: 0 5px 0 #000;
 	transition: all 0.3s ease 0s;
-
+   
+  margin-left: 36%;
    margin-bottom: 83px;
 }
 .button:hover{
@@ -440,6 +441,12 @@ pre {
 	box-shadow: 0 1px 0 #000;
    background-color: #6c855e;
    margin-bottom: 80px;
+}
+.imgbutton {
+   display: block;
+   max-width: 160px;
+   margin-bottom: 60px;
+   margin: 0 auto;
 }
 /*                             */
 
