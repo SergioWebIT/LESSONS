@@ -402,7 +402,9 @@ pre {
    opacity: 1;
    transition: 0.5s;
 	
-   visibility: hidden;
+	
+   opacity: 0;
+	visibility: hidden;
    transition: 1s;
 }
 .list{
