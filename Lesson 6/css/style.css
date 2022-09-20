@@ -402,7 +402,7 @@ pre {
    opacity: 1;
    transition: 0.5s;
    visibility: hidden;
-   transition: 1.5;
+   transition: 1s;
 }
 .list{
    padding-left: 40px;
