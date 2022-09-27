@@ -823,11 +823,11 @@ mark {
    z-index: 999;
    width: 600px;
    height: 600px;
-   background: url('../img/you-win.jpg') no-repeat;
+   background: url('../img/Krasava.png') no-repeat;
    background-size: contain;
    position: absolute;
    right: 0px;
-   top: -510px;
+   top: -540px;
    visibility: hidden;
 }
 
