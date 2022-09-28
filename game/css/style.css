@@ -734,6 +734,7 @@ mark {
    top: -10px;
    right: -48px;
    visibility: hidden;
+   cursor: wait;
 }
 
 .start:hover .a {
