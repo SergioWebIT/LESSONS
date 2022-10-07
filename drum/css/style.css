@@ -1,0 +1,328 @@
+body {
+   /*   adaptive font   */
+   font-size: calc(16px + 3* ((100vw - 320px) / (1140 - 320)));
+   /* ------------------- */
+   color: black;
+   line-height: 1.6;
+   font-family: 'Lato', serif;
+   font-weight: 500;
+   padding: 100px 10px 10px 10px;
+}
+
+html {
+   background-color: rgb(206, 201, 201);
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*           CONTAINER      ВСОГО САЙТУ         */
+
+.container {
+   max-width: 1230px;
+   width: 100%;
+   display: block;
+   margin: 0px auto;
+   padding: 0px 10px;
+}
+
+
+
+/*                         -                   */
+/*HEADER*/
+/*                        -                   */
+
+
+b {
+   font-size: 14px;
+   padding: 8px;
+}
+
+/* ========HOVER======= */
+.link:hover {
+   font-weight: 500;
+   color: black;
+   outline: 12px;
+   box-shadow: 0px 0px 10px 10px #6A7065;
+   border-radius: 4px;
+}
+
+
+/*      МЕНЮ БУРГЕРА       */
+
+
+
+.header {
+   font-family: 'Lato', sans-serif;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 50;
+}
+
+.header:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(206, 201, 201);
+   z-index: 2;
+}
+
+.header__body {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   height: 80px;
+   align-items: center;
+}
+
+.header__logo {
+   flex: 0 0 130px;
+   overflow: hidden;
+   position: relative;
+   z-index: 3;
+}
+
+.img-logo {
+   border-radius: 50%;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+
+.header__logo img {
+   max-width: 100%;
+   display: block;
+}
+
+.header__burger {
+   display: none;
+}
+
+
+
+.header__list {
+   display: flex;
+   position: relative;
+   z-index: 2;
+}
+
+.header__list li {
+   list-style: none;
+   margin: 0px 0px 0px 20px;
+}
+
+.header__link {
+   color: black;
+   text-transform: uppercase;
+   font-size: 14px;
+   text-decoration: none;
+   padding: 5px;
+}
+
+@media (max-width:767px) {
+   body.lock {
+      overflow: hidden;
+   }
+
+   .header__body {
+      height: 50px;
+   }
+
+   .header__logo {
+      flex: 0 0 40px;
+   }
+
+   .header__burger {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+      position: relative;
+      z-index: 3;
+   }
+
+   .header__burger span {
+      position: absolute;
+      background-color: #fff;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 9px;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header__burger:before,
+   .header__burger:after {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+   }
+
+   .header__burger:before {
+      top: 0;
+   }
+
+   .header__burger:after {
+      bottom: 0;
+   }
+
+   .header__burger.active span {
+      transform: scale(0);
+   }
+
+   .header__burger.active:before {
+      transform: rotate(45deg);
+      top: 9px;
+   }
+
+   .header__burger.active:after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+   }
+
+   .header__menu {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      transition: all 0.3s ease 0s;
+      background-color: rgba(150, 150, 150, 0.978);
+      padding: 100px 10px 20px 40px;
+   }
+
+   .header__menu.active {
+      top: 0;
+
+
+   }
+
+   .header__list {
+      display: block;
+
+   }
+
+   .header__list li {
+      margin: 0px 0px 20px 50px;
+
+   }
+
+   .header__link {
+      font-size: 20px;
+
+   }
+}
+
+
+
+/*                               -                               */
+/*CONTENT*/
+/*                              -                                */
+
+
+/* ===================================================== */
+.main__container {
+   max-width: 810px;
+   width: 100%;
+   margin: 0px auto;
+   padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   HOVER   */
+
+
+
+
+
+
+/* ----------------------------------------- */
+/*FOOTER*/
+/*                         -                  */
+
+.footer {
+
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   height: 5%;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 16px;
+}
+
+@media (max-width:600px) {
+   .footer {
+      justify-content: center;
+   }
+
+   .footer.container img {
+      padding: 0 20px;
+   }
+
+   figure.item {
+      display: none;
+   }
+}
+
+@media (max-width: 320px) {
+   .footer {
+      flex-direction: column;
+   }
+}
+
+.botton {
+   font-size: 55%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+mark {
+   background-color: #fff;
+}
+
+.footer img {
+   height: 30px;
+}
+
+/*   HOVER   */
+
+.footer .link:hover {
+   display: block;
+   box-shadow: 0px 0px 10px 10px #6A7065;
+   border-radius: 4px;
+}
